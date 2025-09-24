@@ -58,4 +58,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: "Validation failed for chain files. Please check the workflow logs for details.\n\nError message:\n```\n" + errorContent + "\n```"
-            })
+            })go
+            
